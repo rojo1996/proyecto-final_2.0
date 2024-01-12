@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASISTEC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ASISTEC</h1>
+
+    <div class="button-container">
+      <button class="main-button" onclick="filtrarRepuestos()">Filtrar Repuestos</button>
+      <button class="main-button" onclick="agregarRepuesto()">Agregar Repuesto</button>
+      <button class="main-button" onclick="buscarRepuestos()">Buscar Repuestos</button>
+    </div>
+
+    <div class="image-button-container">
+      <button class="image-button" onclick="redirigirAPagina('https://repuestos.maqu.pe/brand/sandvik-revfk')">
+        <img src="images/descarga (5).png" alt="Sandvik" class="button-image">
+      </button>
+      <button class="image-button" onclick="redirigirAPagina('https://atlantisparts.pe/repuestos-para-john-deere/')">
+        <img src="images/descarga (6).png" alt="Jhondire" class="button-image">
+      </button>
+      <button class="image-button" onclick="redirigirAPagina('https://www.resemin.com/index.php?route=product/category&path=63')">
+        <img src="images/descarga (7).png" alt="Resemin" class="button-image">
+      </button>
+      <button class="image-button" onclick="redirigirAPagina('https://parts.cat.com/es/catcorp')">
+        <img src="images/images (2).png" alt="CAT" class="button-image">
+      </button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
